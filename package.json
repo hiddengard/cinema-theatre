@@ -20,7 +20,7 @@
     }
   },
   "lint-staged": {
-    "*.(js,jsx,ts,tsx)": [
+    "*.{js,jsx,ts,tsx,css,scss,json}": [
       "npm run lint-staged",
       "git add"
     ]
@@ -41,7 +41,8 @@
     "eslint-config-next": "13.1.2",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "husky": "^8.0.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^13.1.0",
     "prettier": "^2.8.2",
     "stylelint": "^14.16.1",
     "stylelint-config-clean-order": "^2.3.0",
